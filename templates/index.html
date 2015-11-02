@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="/static/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+    <body>
+        <div class="splash" >
+             <fieldset>
+                 <legend>Поиск по параметрам</legend>
+                 <form class="pure-form pure-form-stacked myform" id="my_form">
+                    <div class="pure-g-r">
+                        <div class="pure-u-1-6">
+                            <input type="text" id="vehicleID" placeholder="vehicleID">
+                         </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="userName" placeholder="userName">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="dealer" placeholder="dealer">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="dealerLogin" placeholder="dealerLogin">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="server" placeholder="server">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="groupName" placeholder="groupName">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="registrationNumber" placeholder="registrationNumber">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="userLogin" placeholder="userLogin">
+                        </div>
+                        <div class="pure-u-1-6">
+                            <input type="text" id="manufactoryID" placeholder="manufactoryID">
+                        </div>
+
+                        <div class="pure-u-1-2">
+                            <button type="submit" class="pure-button pure-button-primary" id="search">
+                                <i class="fa fa-search"></i>
+                                Искать</button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        <fieldset class="container">
+            <div id="container"></div>
+        </fieldset>
+        <div id="responseField"></div>
+    </body>
+</html>
